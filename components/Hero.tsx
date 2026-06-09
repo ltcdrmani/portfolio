@@ -1,0 +1,63 @@
+export default function Hero() {
+  return (
+    <section className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+      {/* subtle radial glow */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(99,102,241,0.12) 0%, transparent 70%)",
+        }}
+      />
+
+      <div className="max-w-3xl w-full text-center relative z-10">
+        <p
+          className="text-sm font-medium tracking-widest uppercase mb-6"
+          style={{ color: "var(--accent-light)" }}
+        >
+          Senior Product Manager
+        </p>
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
+          Mani{" "}
+          <span
+            style={{
+              background: "linear-gradient(135deg, #6366f1 0%, #a5b4fc 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Selvaraj
+          </span>
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10" style={{ color: "var(--muted)" }}>
+          Building products at Amazon that scale globally — from GenAI-powered portals to traceability
+          systems for Whole Foods. Former naval officer. Kelley MBA.
+        </p>
+        <div className="flex flex-wrap gap-4 justify-center">
+          <a
+            href="#experience"
+            className="px-7 py-3 rounded-full font-medium text-sm transition-all hover:opacity-90 hover:scale-105"
+            style={{
+              background: "linear-gradient(135deg, #6366f1 0%, #818cf8 100%)",
+              color: "white",
+            }}
+          >
+            View my work
+          </a>
+          <a
+            href="#contact"
+            className="px-7 py-3 rounded-full font-medium text-sm border transition-all hover:bg-white/5"
+            style={{ borderColor: "var(--border)", color: "var(--foreground)" }}
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+
+      {/* scroll indicator */}
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+        <div className="w-px h-8 rounded-full" style={{ background: "var(--border)" }} />
+      </div>
+    </section>
+  );
+}
