@@ -5,6 +5,15 @@ const highlights = [
   { value: "300K", label: "Products traced" },
 ];
 
+const accomplishments = [
+  "IEEE Senior Member & Full Member in Sigma Xi (The Scientific Research Honor Society)",
+  "Published 5 research papers and peer-reviewed 15 scholarly articles on Digital Supply Chain transformation in international journals",
+  "Mentored startups registered with the Botswana Innovation Hub",
+  "IEEE Senior Member Panelist reviewing senior member applications (2024)",
+  "Recipient of Commendation by The Flag Officer Commanding-in-Chief, Indian Navy (2019)",
+  "Commissioned in the Indian Navy by the President of India (2010)",
+];
+
 export default function About() {
   return (
     <section id="about" className="py-24 px-6">
@@ -47,6 +56,21 @@ export default function About() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div
+          className="mt-16 rounded-2xl p-8 border"
+          style={{ background: "var(--card)", borderColor: "var(--border)" }}
+        >
+          <h3 className="font-semibold text-lg mb-5">Accomplishments</h3>
+          <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3">
+            {accomplishments.map((a) => (
+              <li key={a} className="flex gap-3 text-sm leading-relaxed" style={{ color: "var(--muted)" }}>
+                <span className="mt-1.5 shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: "var(--accent)" }} />
+                {a}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
