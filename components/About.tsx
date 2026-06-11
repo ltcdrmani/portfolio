@@ -7,7 +7,7 @@ const highlights = [
 
 const accomplishments = [
   "IEEE Senior Member & Full Member in Sigma Xi (The Scientific Research Honor Society)",
-  "Published 5 research papers and peer-reviewed 15 scholarly articles on Digital Supply Chain transformation in international journals",
+  "Published 6+ research papers in international journals and conferences, and completed 15+ peer reviews of scholarly articles in international journals",
   "Mentored startups registered with the Botswana Innovation Hub",
   "IEEE Senior Member Panelist reviewing senior member applications (2024)",
   "Recipient of Commendation by The Flag Officer Commanding-in-Chief, Indian Navy (2019)",
