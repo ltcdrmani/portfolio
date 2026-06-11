@@ -15,7 +15,7 @@ export default function Hero() {
           className="text-sm font-medium tracking-widest uppercase mb-6"
           style={{ color: "var(--accent-light)" }}
         >
-          Senior Product Manager
+          Lt Cdr (Retd), Indian Navy · Senior Product Manager
         </p>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
           Mani{" "}
