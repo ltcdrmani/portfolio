@@ -18,7 +18,7 @@ const jobs = [
     title: "Co-Founder",
     company: "Military to MBA",
     location: "India",
-    period: "Jan 2021 – Present",
+    period: "Jan 2021 – 2024",
     bullets: [
       "Education consultancy helping transitioning Indian veterans pursue advanced degrees",
       "Led a team of peers, provided 100+ free 1:1 consultations, and helped veterans earn MBA admits from top universities with >$500,000 in scholarships",
