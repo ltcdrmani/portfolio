@@ -18,7 +18,7 @@ export default function Nav() {
         scrolled ? "py-3 backdrop-blur-md border-b" : "py-5"
       }`}
       style={{
-        background: scrolled ? "rgba(8,8,15,0.85)" : "transparent",
+        background: scrolled ? "rgba(255,255,255,0.85)" : "transparent",
         borderColor: "var(--border)",
       }}
     >
@@ -31,7 +31,7 @@ export default function Nav() {
             <li key={l}>
               <a
                 href={`#${l.toLowerCase()}`}
-                className="text-sm transition-colors hover:text-white"
+                className="text-sm transition-colors hover:text-[#003366]"
                 style={{ color: "var(--muted)" }}
               >
                 {l}
@@ -41,7 +41,7 @@ export default function Nav() {
         </ul>
         <a
           href="mailto:mani.in@hotmail.com"
-          className="hidden md:inline-flex items-center gap-2 text-sm px-4 py-2 rounded-full border transition-all hover:bg-white/5"
+          className="hidden md:inline-flex items-center gap-2 text-sm px-4 py-2 rounded-full border transition-all hover:bg-[#003366]/5"
           style={{ borderColor: "var(--border)", color: "var(--accent-light)" }}
         >
           Get in touch

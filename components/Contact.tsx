@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="flex flex-wrap gap-4">
           <a
             href="mailto:mani.in@hotmail.com"
-            className="flex items-center gap-3 px-6 py-4 rounded-2xl border transition-all hover:bg-white/5"
+            className="flex items-center gap-3 px-6 py-4 rounded-2xl border transition-all hover:bg-[#003366]/5"
             style={{ background: "var(--card)", borderColor: "var(--border)" }}
           >
             <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{ color: "var(--accent-light)" }}>
@@ -28,7 +28,7 @@ export default function Contact() {
 
           <a
             href="tel:+18122725471"
-            className="flex items-center gap-3 px-6 py-4 rounded-2xl border transition-all hover:bg-white/5"
+            className="flex items-center gap-3 px-6 py-4 rounded-2xl border transition-all hover:bg-[#003366]/5"
             style={{ background: "var(--card)", borderColor: "var(--border)" }}
           >
             <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{ color: "var(--accent-light)" }}>
@@ -44,7 +44,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/manikandanselvaraj"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-6 py-4 rounded-2xl border transition-all hover:bg-white/5"
+            className="flex items-center gap-3 px-6 py-4 rounded-2xl border transition-all hover:bg-[#003366]/5"
             style={{ background: "var(--card)", borderColor: "var(--border)" }}
           >
             <svg className="w-5 h-5 shrink-0" fill="currentColor" viewBox="0 0 24 24" style={{ color: "var(--accent-light)" }}>

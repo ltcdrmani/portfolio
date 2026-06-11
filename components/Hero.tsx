@@ -6,7 +6,7 @@ export default function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(99,102,241,0.12) 0%, transparent 70%)",
+            "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(0,51,102,0.08) 0%, transparent 70%)",
         }}
       />
 
@@ -21,7 +21,7 @@ export default function Hero() {
           Mani{" "}
           <span
             style={{
-              background: "linear-gradient(135deg, #6366f1 0%, #a5b4fc 100%)",
+              background: "linear-gradient(135deg, #003366 0%, #1d5ba6 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}
@@ -38,7 +38,7 @@ export default function Hero() {
             href="#experience"
             className="px-7 py-3 rounded-full font-medium text-sm transition-all hover:opacity-90 hover:scale-105"
             style={{
-              background: "linear-gradient(135deg, #6366f1 0%, #818cf8 100%)",
+              background: "linear-gradient(135deg, #003366 0%, #1d5ba6 100%)",
               color: "white",
             }}
           >
@@ -46,7 +46,7 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
-            className="px-7 py-3 rounded-full font-medium text-sm border transition-all hover:bg-white/5"
+            className="px-7 py-3 rounded-full font-medium text-sm border transition-all hover:bg-[#003366]/5"
             style={{ borderColor: "var(--border)", color: "var(--foreground)" }}
           >
             Contact me

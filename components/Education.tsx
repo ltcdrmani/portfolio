@@ -50,7 +50,7 @@ export default function Education() {
             >
               <span
                 className="text-xs font-semibold px-2.5 py-1 rounded-full self-start"
-                style={{ background: "rgba(99,102,241,0.12)", color: "var(--accent-light)" }}
+                style={{ background: "rgba(0,51,102,0.08)", color: "var(--accent-light)" }}
               >
                 {s.year}
               </span>
