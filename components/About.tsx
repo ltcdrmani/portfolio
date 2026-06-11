@@ -35,8 +35,8 @@ export default function About() {
               approach ambiguity, prioritize ruthlessly, and build teams that deliver.
             </p>
             <p className="leading-relaxed" style={{ color: "var(--muted)" }}>
-              I hold an MBA from Indiana University&apos;s Kelley School of Business (Operations &
-              Supply Chain, PM Track) and a Business Management certificate from IIM Ahmedabad.
+              I hold an MBA from Indiana University&apos;s Kelley School of Business (Supply Chain,
+              Business Analytics & Product Management) and a Business Management certificate from IIM Ahmedabad.
             </p>
           </div>
 

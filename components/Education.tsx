@@ -8,7 +8,7 @@ const schools: {
   detail?: string;
 }[] = [
   {
-    degree: "MBA — Operations & Supply Chain, Product Management (STEM)",
+    degree: "MBA — Supply Chain, Business Analytics & Product Management (STEM)",
     school: "Indiana University, Kelley School of Business",
     location: "Bloomington, IN",
     year: "May 2023",
