@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+    <section className="min-h-[85vh] flex items-center justify-center px-6 relative overflow-hidden">
       {/* subtle radial glow */}
       <div
         className="absolute inset-0 pointer-events-none"

@@ -2,7 +2,7 @@ import { SectionLabel } from "./About";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 px-6">
+    <section id="contact" className="py-12 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>Contact</SectionLabel>
         <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-4">Let&apos;s connect</h2>

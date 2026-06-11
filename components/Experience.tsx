@@ -99,14 +99,14 @@ const jobs = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-24 px-6">
+    <section id="experience" className="py-12 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>Experience</SectionLabel>
-        <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-14">Where I&apos;ve worked</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-8">Where I&apos;ve worked</h2>
 
         <div className="relative pl-6 border-l" style={{ borderColor: "var(--border)" }}>
           {jobs.map((job, i) => (
-            <div key={i} className="mb-14 relative">
+            <div key={i} className="mb-10 relative">
               {/* timeline dot */}
               <div
                 className="absolute -left-[1.65rem] top-1 w-3 h-3 rounded-full border-2"

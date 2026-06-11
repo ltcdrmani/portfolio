@@ -17,7 +17,7 @@ const accomplishments = [
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-6">
+    <section id="about" className="py-12 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>About</SectionLabel>
         <div className="grid md:grid-cols-2 gap-16 items-start mt-10">
@@ -60,7 +60,7 @@ export default function About() {
         </div>
 
         <div
-          className="mt-16 rounded-2xl p-8 border"
+          className="mt-10 rounded-2xl p-8 border"
           style={{ background: "var(--card)", borderColor: "var(--border)" }}
         >
           <h3 className="font-semibold text-lg mb-5">Accomplishments</h3>
