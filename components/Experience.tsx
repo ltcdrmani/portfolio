@@ -35,6 +35,18 @@ const jobs = [
     ],
   },
   {
+    title: "Founder & Managing Director",
+    company: "GreenFoods Factory",
+    location: "India",
+    period: "2020 – 2023",
+    bullets: [
+      "Launched own brand of tapioca sago pearls, selling ~100 tonnes annually to B2C customers across India (₹60/kg)",
+      "Built B2B export channel to Canada, shipping ~100 tonnes annually in international export orders",
+      "Implemented automation in roasting process — 20% quality improvement, 17% productivity increase",
+      "Standardized supply chain with hub-and-spoke distribution, reducing shipment costs and delivery time by 30%",
+    ],
+  },
+  {
     title: "Leadership Development Intern — Corporate Strategy",
     company: "Mercury Marine (Brunswick Corporation)",
     location: "Fond du Lac, WI",
@@ -52,17 +64,6 @@ const jobs = [
     bullets: [
       "Upgraded risk analysis model via user interviews and KPI optimization, improving process efficiency by 12%",
       "Developed analyst onboarding mentoring program, reducing training duration by 15%",
-    ],
-  },
-  {
-    title: "Founder & Managing Director",
-    company: "GreenFoods Factory",
-    location: "India",
-    period: "Dec 2019 – Oct 2020",
-    bullets: [
-      "Launched B2B/B2C product line achieving $100K annual revenue through demand forecasting and market research",
-      "Implemented automation in roasting process — 20% quality improvement, 17% productivity increase",
-      "Standardized supply chain with hub-and-spoke distribution, reducing shipment costs and delivery time by 30%",
     ],
   },
   {
