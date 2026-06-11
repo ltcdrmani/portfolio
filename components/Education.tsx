@@ -31,6 +31,7 @@ const schools: {
     school: "Anna University",
     location: "Tamil Nadu, India",
     year: "Jun 2008",
+    detail: "Gold Medalist — Best Outstanding Student in overall order of merit",
   },
 ];
 

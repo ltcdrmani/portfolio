@@ -12,6 +12,7 @@ const accomplishments = [
   "IEEE Senior Member Panelist reviewing senior member applications (2024)",
   "Recipient of Commendation by The Flag Officer Commanding-in-Chief, Indian Navy (2019)",
   "Commissioned in the Indian Navy by the President of India (2010)",
+  "Gold Medalist — Best Outstanding Student in overall order of merit, undergraduate class",
 ];
 
 export default function About() {

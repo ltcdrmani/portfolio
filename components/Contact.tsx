@@ -55,6 +55,22 @@ export default function Contact() {
               <p className="text-sm font-medium">Connect with me</p>
             </div>
           </a>
+
+          <a
+            href="https://scholar.google.com/citations?user=XB6eUAIAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-6 py-4 rounded-2xl border transition-all hover:bg-[#003366]/5"
+            style={{ background: "var(--card)", borderColor: "var(--border)" }}
+          >
+            <svg className="w-5 h-5 shrink-0" fill="currentColor" viewBox="0 0 24 24" style={{ color: "var(--accent-light)" }}>
+              <path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 9a8 8 0 017.162 4.44L24 9.5z" />
+            </svg>
+            <div>
+              <p className="text-xs mb-0.5" style={{ color: "var(--muted)" }}>Google Scholar</p>
+              <p className="text-sm font-medium">View my research</p>
+            </div>
+          </a>
         </div>
 
         <p className="mt-8 text-sm" style={{ color: "var(--muted)" }}>
