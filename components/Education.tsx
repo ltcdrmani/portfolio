@@ -37,10 +37,10 @@ const schools: {
 
 export default function Education() {
   return (
-    <section id="education" className="py-12 px-6">
+    <section id="education" className="py-8 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>Education</SectionLabel>
-        <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-8">Academic background</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">Academic background</h2>
 
         <div className="grid md:grid-cols-2 gap-6">
           {schools.map((s, i) => (

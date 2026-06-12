@@ -17,10 +17,10 @@ const accomplishments = [
 
 export default function About() {
   return (
-    <section id="about" className="py-12 px-6">
+    <section id="about" className="py-8 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>About</SectionLabel>
-        <div className="grid md:grid-cols-2 gap-16 items-start mt-10">
+        <div className="grid md:grid-cols-2 gap-12 items-start mt-6">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug">
               From Wardroom to Boardroom

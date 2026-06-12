@@ -2,11 +2,11 @@ import { SectionLabel } from "./About";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-12 px-6">
+    <section id="contact" className="py-8 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>Contact</SectionLabel>
         <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-4">Let&apos;s connect</h2>
-        <p className="max-w-xl mb-12 leading-relaxed" style={{ color: "var(--muted)" }}>
+        <p className="max-w-xl mb-8 leading-relaxed" style={{ color: "var(--muted)" }}>
           I&apos;m open to new opportunities — especially PM roles in Canada or roles that leverage my
           background in AI products, operations, and supply chain. Drop me a line.
         </p>

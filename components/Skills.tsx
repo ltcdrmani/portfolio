@@ -21,10 +21,10 @@ const categories = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-12 px-6">
+    <section id="skills" className="py-8 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>Skills</SectionLabel>
-        <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-8">What I bring to the table</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">What I bring to the table</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {categories.map((cat) => (
