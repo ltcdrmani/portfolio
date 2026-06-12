@@ -1,8 +1,6 @@
 const highlights = [
   { value: "15+", label: "Years of leadership" },
   { value: "10yr", label: "Indian Navy officer" },
-  { value: "200+", label: "Brands researched" },
-  { value: "300K", label: "Products traced" },
 ];
 
 const accomplishments = [
