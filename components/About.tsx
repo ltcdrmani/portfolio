@@ -1,8 +1,3 @@
-const highlights = [
-  { value: "15+", label: "Years of leadership" },
-  { value: "10yr", label: "Indian Navy officer" },
-];
-
 const accomplishments = [
   "IEEE Senior Member & Full Member in Sigma Xi (The Scientific Research Honor Society)",
   "Published 6+ research papers in international journals and conferences, and completed 15+ peer reviews of scholarly articles in international journals",
@@ -18,7 +13,7 @@ export default function About() {
     <section id="about" className="py-8 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>About</SectionLabel>
-        <div className="grid md:grid-cols-2 gap-12 items-start mt-6">
+        <div className="mt-6 max-w-3xl">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug">
               From Wardroom to Boardroom
@@ -37,23 +32,6 @@ export default function About() {
               I hold an MBA from Indiana University&apos;s Kelley School of Business (Supply Chain,
               Business Analytics & Product Management) and a Business Management certificate from IIM Ahmedabad.
             </p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4">
-            {highlights.map((h) => (
-              <div
-                key={h.label}
-                className="rounded-2xl p-6 border"
-                style={{ background: "var(--card)", borderColor: "var(--border)" }}
-              >
-                <p className="text-3xl font-bold mb-1" style={{ color: "var(--accent-light)" }}>
-                  {h.value}
-                </p>
-                <p className="text-sm" style={{ color: "var(--muted)" }}>
-                  {h.label}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
 
