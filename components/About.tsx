@@ -23,7 +23,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 items-start mt-10">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug">
-              From naval bridges to product roadmaps
+              From Wardroom to Boardroom
             </h2>
             <p className="leading-relaxed mb-4" style={{ color: "var(--muted)" }}>
               I&apos;m a Senior Product Manager at Amazon&apos;s Transparency team, where I lead
