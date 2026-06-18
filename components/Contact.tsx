@@ -7,8 +7,8 @@ export default function Contact() {
         <SectionLabel>Contact</SectionLabel>
         <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-4">Let&apos;s connect</h2>
         <p className="max-w-xl mb-8 leading-relaxed" style={{ color: "var(--muted)" }}>
-          I&apos;m open to new opportunities — especially PM roles in Canada or roles that leverage my
-          background in AI products, operations, and supply chain. Drop me a line.
+          I&apos;m open to new opportunities — especially roles that leverage my background in AI
+          products, operations, and supply chain. Drop me a line.
         </p>
 
         <div className="flex flex-wrap gap-4">
