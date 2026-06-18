@@ -72,10 +72,6 @@ export default function Contact() {
             </div>
           </a>
         </div>
-
-        <p className="mt-8 text-sm" style={{ color: "var(--muted)" }}>
-          Canadian Permanent Resident · Based in the U.S. · Open to relocation across Canada
-        </p>
       </div>
     </section>
   );

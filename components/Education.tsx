@@ -21,6 +21,12 @@ const schools: {
     year: "Mar 2020",
   },
   {
+    degree: "NBCD Specialist — Nuclear, Biological, Chemical Defence & Damage Control (16 weeks)",
+    school: "NBCD School, INS Shivaji, Indian Navy",
+    location: "Pune, India",
+    year: "Jul 2016",
+  },
+  {
     degree: "Naval Orientation Course",
     school: "Indian Naval Academy, Indian Navy",
     location: "Ezhimala, India",
