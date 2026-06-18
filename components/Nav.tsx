@@ -40,7 +40,7 @@ export default function Nav() {
           ))}
         </ul>
         <a
-          href="mailto:mani.in@hotmail.com"
+          href="#contact"
           className="hidden md:inline-flex items-center gap-2 text-sm px-4 py-2 rounded-full border transition-all hover:bg-[#003366]/5"
           style={{ borderColor: "var(--border)", color: "var(--accent-light)" }}
         >
