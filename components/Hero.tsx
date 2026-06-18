@@ -10,6 +10,28 @@ export default function Hero() {
         }}
       />
 
+      {/* anchor watermark */}
+      <svg
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none"
+        width="520"
+        height="520"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#003366"
+        strokeWidth="1"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        style={{ opacity: 0.05 }}
+        aria-hidden="true"
+      >
+        <circle cx="12" cy="4" r="2" />
+        <line x1="12" y1="6" x2="12" y2="22" />
+        <line x1="7" y1="9" x2="17" y2="9" />
+        <path d="M5 14a7 7 0 0 0 14 0" />
+        <line x1="5" y1="14" x2="3.5" y2="15" />
+        <line x1="19" y1="14" x2="20.5" y2="15" />
+      </svg>
+
       <div className="max-w-3xl w-full text-center relative z-10">
         <p
           className="text-sm font-medium tracking-widest uppercase mb-6"
