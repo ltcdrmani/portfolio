@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const accomplishments = [
   "IEEE Senior Member & Full Member in Sigma Xi (The Scientific Research Honor Society)",
   "Published 6+ research papers in international journals and conferences, and completed 15+ peer reviews of scholarly articles in international journals",
@@ -13,8 +15,24 @@ export default function About() {
     <section id="about" className="py-8 px-6">
       <div className="max-w-5xl mx-auto">
         <SectionLabel>About</SectionLabel>
-        <div className="mt-6 max-w-3xl">
-          <div>
+        <div className="mt-6 grid md:grid-cols-5 gap-10 items-center">
+          <div className="md:col-span-2 order-1">
+            <div
+              className="overflow-hidden rounded-2xl border shadow-sm"
+              style={{ borderColor: "var(--border)" }}
+            >
+              <Image
+                src="/images/salute.jpg"
+                alt="Mani Selvaraj saluting in Indian Navy whites"
+                width={1280}
+                height={853}
+                className="w-full h-full object-cover"
+                style={{ objectPosition: "20% center" }}
+                priority
+              />
+            </div>
+          </div>
+          <div className="md:col-span-3 order-2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug">
               From Wardroom to Boardroom
             </h2>
