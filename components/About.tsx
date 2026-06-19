@@ -35,9 +35,9 @@ export default function About() {
           </div>
 
           <p className="leading-relaxed mb-4" style={{ color: "var(--muted)" }}>
-            I&apos;m a Senior Product Manager at Amazon&apos;s Transparency team, where I lead
-            GenAI-powered self-service products and a supply-chain traceability system for Amazon
-            Grocery & Whole Foods.
+            I&apos;m a Senior Product Manager at Amazon&apos;s Transparency team, specializing in
+            supply chain and brand-protection products. I lead GenAI-powered self-service tools and a
+            supply chain traceability system for Amazon Grocery & Whole Foods.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--muted)" }}>
             Before tech, I spent 10 years as an officer in the Indian Navy — leading crews, managing
