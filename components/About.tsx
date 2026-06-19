@@ -20,7 +20,7 @@ export default function About() {
         </h2>
 
         <div
-          className="overflow-hidden rounded-2xl border shadow-sm mb-8"
+          className="overflow-hidden rounded-xl border shadow-sm mb-8 max-w-md"
           style={{ borderColor: "var(--border)" }}
         >
           <Image
