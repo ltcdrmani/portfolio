@@ -19,7 +19,7 @@ export default function Home() {
         <Contact />
       </main>
       <footer className="text-center py-8 text-sm" style={{ color: "var(--muted)" }}>
-        © {new Date().getFullYear()} Lt Cdr Mani Selvaraj (Retd), Indian Navy
+        © {new Date().getFullYear()} Lt Cdr Manikandan (Mani) Selvaraj (Retd), Indian Navy
       </footer>
     </>
   );

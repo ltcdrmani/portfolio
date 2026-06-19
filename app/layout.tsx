@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   keywords: [
+    "Manikandan Selvaraj",
     "Mani Selvaraj",
     "Product Manager",
     "Supply Chain",
@@ -46,7 +47,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Mani Selvaraj",
+              name: "Manikandan Selvaraj",
+              alternateName: "Mani Selvaraj",
               jobTitle: "Senior Product Manager",
               worksFor: { "@type": "Organization", name: "Amazon" },
               url: "https://maniselvaraj.com",
