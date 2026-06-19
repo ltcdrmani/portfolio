@@ -19,32 +19,32 @@ export default function About() {
           From Wardroom to Boardroom
         </h2>
 
-        <div
-          className="overflow-hidden rounded-xl border shadow-sm mb-8 max-w-md"
-          style={{ borderColor: "var(--border)" }}
-        >
-          <Image
-            src="/images/wardroom-boardroom.png"
-            alt="Mani Selvaraj — saluting in Indian Navy whites and presenting in business attire"
-            width={1195}
-            height={896}
-            className="w-full h-auto object-cover"
-            priority
-          />
-        </div>
+        <div className="max-w-4xl">
+          <div
+            className="overflow-hidden rounded-xl border shadow-sm float-none sm:float-left w-full sm:w-[20rem] mb-5 sm:mb-2 sm:mr-6"
+            style={{ borderColor: "var(--border)" }}
+          >
+            <Image
+              src="/images/wardroom-boardroom.png"
+              alt="Mani Selvaraj — saluting in Indian Navy whites and presenting in business attire"
+              width={1195}
+              height={896}
+              className="w-full h-auto object-cover"
+              priority
+            />
+          </div>
 
-        <div className="grid md:grid-cols-2 gap-x-10 gap-y-4 max-w-4xl">
-          <p className="leading-relaxed" style={{ color: "var(--muted)" }}>
+          <p className="leading-relaxed mb-4" style={{ color: "var(--muted)" }}>
             I&apos;m a Senior Product Manager at Amazon&apos;s Transparency team, where I lead
             GenAI-powered self-service products and a supply-chain traceability system for Amazon
             Grocery & Whole Foods.
           </p>
-          <p className="leading-relaxed" style={{ color: "var(--muted)" }}>
+          <p className="leading-relaxed mb-4" style={{ color: "var(--muted)" }}>
             Before tech, I spent 10 years as an officer in the Indian Navy — leading crews, managing
             complex logistics, and running operations aboard warships. That foundation shapes how I
             approach ambiguity, prioritize ruthlessly, and build teams that deliver.
           </p>
-          <p className="leading-relaxed md:col-span-2" style={{ color: "var(--muted)" }}>
+          <p className="leading-relaxed" style={{ color: "var(--muted)" }}>
             I hold an MBA from Indiana University&apos;s Kelley School of Business (Supply Chain,
             Business Analytics & Product Management) and a Business Management certificate from IIM Ahmedabad.
           </p>
