@@ -6,22 +6,22 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://maniselvaraj.com"),
-  title: "Mani Selvaraj — Product Manager",
+  title: "Mani Selvaraj — Product & Strategy Leader | Digitizing Supply Chain Operations",
   description:
-    "Senior Product Manager at Amazon with a background in naval leadership, operations, and entrepreneurship.",
+    "Product and strategy leader specializing in digitizing supply chain operations and brand protection, with a background in naval leadership and entrepreneurship.",
   openGraph: {
-    title: "Mani Selvaraj — Product Manager",
+    title: "Mani Selvaraj — Product & Strategy Leader | Digitizing Supply Chain Operations",
     description:
-      "Senior Product Manager at Amazon with a background in naval leadership, operations, and entrepreneurship.",
+      "Product and strategy leader specializing in digitizing supply chain operations and brand protection, with a background in naval leadership and entrepreneurship.",
     url: "https://maniselvaraj.com",
     siteName: "Mani Selvaraj",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Mani Selvaraj — Product Manager",
+    title: "Mani Selvaraj — Product & Strategy Leader | Digitizing Supply Chain Operations",
     description:
-      "Senior Product Manager at Amazon with a background in naval leadership, operations, and entrepreneurship.",
+      "Product and strategy leader specializing in digitizing supply chain operations and brand protection, with a background in naval leadership and entrepreneurship.",
   },
 };
 
