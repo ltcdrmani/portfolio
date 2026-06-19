@@ -52,8 +52,8 @@ export default function Hero() {
           </span>
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10" style={{ color: "var(--muted)" }}>
-          Building products at Amazon that scale globally — from AI powered features to traceability
-          systems for Whole Foods. Former Naval Officer. Indiana Kelley MBA.
+          Building products at Amazon that scale globally — from AI powered features to supply chain
+          traceability systems for Whole Foods. Former Naval Officer. Indiana Kelley MBA.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a
