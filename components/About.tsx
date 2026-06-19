@@ -38,7 +38,7 @@ export default function About() {
             I&apos;m a Senior Product Manager at Amazon&apos;s Transparency team, where I help brands
             protect themselves from counterfeits by serializing their products and making them
             traceable across the supply chain. I lead GenAI-powered self-service tools and a
-            traceability system for Amazon Grocery & Whole Foods.
+            traceability system spanning retail and e-commerce.
           </p>
           <p className="leading-relaxed mb-4" style={{ color: "var(--muted)" }}>
             Before tech, I spent 10 years as an officer in the Indian Navy — leading crews, managing
