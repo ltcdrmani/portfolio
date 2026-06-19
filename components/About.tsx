@@ -20,18 +20,35 @@ export default function About() {
         </h2>
 
         <div className="max-w-4xl">
-          <div
-            className="overflow-hidden rounded-xl border shadow-sm float-none sm:float-left w-full sm:w-[20rem] mb-5 sm:mb-2 sm:mr-6"
-            style={{ borderColor: "var(--border)" }}
-          >
-            <Image
-              src="/images/wardroom-boardroom.png"
-              alt="Mani Selvaraj — saluting in Indian Navy whites and presenting in business attire"
-              width={1195}
-              height={896}
-              className="w-full h-auto object-cover"
-              priority
-            />
+          <div className="float-none sm:float-left w-full sm:w-[20rem] mb-5 sm:mb-2 sm:mr-6 grid grid-cols-2 gap-2">
+            <div
+              className="overflow-hidden rounded-xl border shadow-sm aspect-[3/4]"
+              style={{ borderColor: "var(--border)" }}
+            >
+              <Image
+                src="/images/wardroom.jpg"
+                alt="Mani Selvaraj saluting in Indian Navy whites"
+                width={1280}
+                height={853}
+                className="w-full h-full object-cover"
+                style={{ objectPosition: "18% center" }}
+                priority
+              />
+            </div>
+            <div
+              className="overflow-hidden rounded-xl border shadow-sm aspect-[3/4]"
+              style={{ borderColor: "var(--border)" }}
+            >
+              <Image
+                src="/images/boardroom.jpg"
+                alt="Mani Selvaraj presenting in business attire"
+                width={1718}
+                height={1289}
+                className="w-full h-full object-cover"
+                style={{ objectPosition: "62% center" }}
+                priority
+              />
+            </div>
           </div>
 
           <p className="leading-relaxed mb-4" style={{ color: "var(--muted)" }}>
