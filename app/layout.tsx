@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     url: "https://maniselvaraj.com",
     siteName: "Mani Selvaraj",
     type: "website",
+    images: [
+      {
+        url: "/images/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Mani Selvaraj — Product & Strategy Leader, Digitizing Supply Chain Operations",
+      },
+    ],
   },
   keywords: [
     "Manikandan Selvaraj",
@@ -30,10 +38,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://maniselvaraj.com" },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Mani Selvaraj — Product & Strategy Leader | Digitizing Supply Chain Operations",
     description:
       "Product and strategy leader specializing in digitizing supply chain operations and brand protection, with a background in naval leadership and entrepreneurship.",
+    images: ["/images/og.jpg"],
   },
 };
 
